@@ -7,8 +7,9 @@ import { schema } from './schema';
 export const Server = new ApolloServer({
 	schema,
 	plugins: [
-		process.env.NODE_ENV === 'production'
-			? ApolloServerPluginLandingPageDisabled()
-			: ApolloServerPluginLandingPageGraphQLPlayground(),
+		// process.env.NODE_ENV === 'production'
+		// 	? ApolloServerPluginLandingPageDisabled()
+		// : ApolloServerPluginLandingPageGraphQLPlayground(),
+		ApolloServerPluginLandingPageGraphQLPlayground(),
 	],
 });

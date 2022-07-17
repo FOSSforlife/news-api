@@ -25,3 +25,4 @@ An API for news stuff, personalized for my own use. Planning on building a UI to
 
 - [ ] Mark item as read
 - [ ] New Solutions article discussion
+- [ ] Save article in reading list
